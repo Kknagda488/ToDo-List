@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 10vh;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav div input[type=text] {
+    width: 900px;
+    margin: 9px;
+    height: 24px;
+    border: 1px solid rgb(50, 48, 48);
+    background-color: rgb(86, 82, 82);
+    color: white;
+
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+}
+
+.btn {
+
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+textarea,.container input{
+    width: 100%;
+    padding: 15px;
+}
